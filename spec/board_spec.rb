@@ -6,8 +6,9 @@ describe 'A Tic Tac Toe board' do
     Board.new
   end
 
-  it '' do
-  	
+  it 'is empty' do
+  	board = Board.new
+  	expect(board.empty?).to eq(true)
   end
 
 end
