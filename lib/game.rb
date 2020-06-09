@@ -1,4 +1,4 @@
 require_relative 'board'
 
-class Fixme
+class Game
 end
