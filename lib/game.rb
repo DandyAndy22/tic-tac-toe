@@ -8,4 +8,12 @@ class Game
 		@board = board
 	end
 
+	def over?
+		if board.empty?
+			false
+		else 
+			true
+		end
+	end
+
 end
